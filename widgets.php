@@ -91,18 +91,18 @@ class Xb_Widget_Ajax_Demo extends Xb_Widget_Ajax {
             <?php 
 	}
         
-        // This needs to be overriden in the derived class
-        //   so that the correct widget is called by the ajax callback.  
-        function ajax_url($widget = __CLASS__) {
-            return parent::ajax_url($widget);
-        }
-        
-        
-        public function ajax() {
-            // Do cool ajax stuff here.
-            ?>
-            <span>Ajax Content @ <?php echo strftime('%c'); ?></span> 
-            <?php
-        }
+    // This needs to be overridden in the derived class
+    //   so that the correct widget is called by the ajax callback.  
+    function ajax_url($widget = __CLASS__) {
+        return parent::ajax_url($widget);
+    }
+
+
+    public function ajax() {
+        // Do cool ajax stuff here.
+        ?>
+        <span>Ajax Content @ <?php echo strftime('%c'); ?></span> 
+        <?php
+    }
     
 } 
