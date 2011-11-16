@@ -1,4 +1,2 @@
-
-.svn/entries
-
-.svn/all-wcprops
+.svn/*
+inc/.svn/*
