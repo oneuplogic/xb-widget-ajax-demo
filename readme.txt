@@ -10,6 +10,8 @@ Demo of using the Xb_Widget_Ajax class to create Ajax enabled widgets.
 == Description ==
 
 Demo of using the Xb_Widget_Ajax class to create Ajax enabled widgets.
+See full article here: 
+[explodybits (xb)](http://www.explodybits.com/2011/11/wordpress-ajax-widgets/ "explodybits (xb)")
 
 == Installation ==
 
